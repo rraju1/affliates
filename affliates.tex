@@ -17,38 +17,23 @@
 \section{Introduction} % (fold)
 \begin{frame}
 \frametitle{Vulnerabilities in NNs}
-\begin{center}
-	\includegraphics[scale=0.4]{clean_class1.png}
-\end{center}
-\end{frame}
-
-\begin{frame}
-\frametitle{Vulnerabilities in NNs}
-\begin{center}
-	\includegraphics[scale=0.4]{cleanclassification2.png}
-\end{center}
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Vulnerabilities in NNs cont.}
-\begin{center}
-	\includegraphics[scale=0.4]{advclassification1.png}
-\end{center}
-\end{frame}
-
-\begin{frame}
-\frametitle{Vulnerabilities in NNs cont.}
-\begin{center}
-	\includegraphics[scale=0.4]{advclassification2.png}
-\end{center}
+\centering
+\only<1> {\includegraphics[scale=0.4]{clean_class1.png}\hspace{2.2cm}}
+\only<2> {\includegraphics[scale=0.4]{cleanclassification2.png}}
+\only<3> {\includegraphics[scale=0.4]{advclassification1.png}\hspace{2.2cm}}
+\only<4> {\includegraphics[scale=0.4]{advclassification2.png}}
 \end{frame}
 
 \begin{frame}
 \frametitle{FFT Spectrum of channels}
 \begin{center}
-	\includegraphics[scale=0.6]{regular_blur.png}
+	\includegraphics[scale=0.7]{regular_blur.png}
 \end{center}
+\pause
+\begin{itemize}
+	\item Log-shifted and normalized frequency spectrum of RGB channels of a natural and perturbed stop sign image 
+	\item Lower freqencies correspond to the center and higher ones to the edge.  
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -59,11 +44,51 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{FFT Spectrum of channels}
+\frametitle{Filtering input vs. Filtering Feature Maps}
+\begin{table}[h!]
+  \begin{center}
+    \caption{Results from black box evaluation}
+    \label{tab:transfer}
+    \begin{tabular}{c|c|c} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+      & \textbf{Accuracy} & \textbf{Attack Success Rate}\\
+      \hline
+      Baseline & 100\% & 90\%\\
+      Input filter 3x3 & 100\% & 87.5\%\\
+      Input filter 5x5 & 100\% & 67.5\%\\
+      3x3 filter on L1 feature maps & 100\% & 65\%\\
+      5x5 filter on L1 feature maps & 87.5\% & 17.5\%\\
+    \end{tabular}
+  \end{center}
+\end{table}
+\end{frame}
+
+\begin{frame}
+\frametitle{Filtering in the higher layers}
 \begin{center}
-	\includegraphics[scale=0.6]{regular_blur.png}
+	\includegraphics[scale=0.7]{higher_filters.png}
 \end{center}
 \end{frame}
+
+\begin{frame}
+\frametitle{Whitebox Evaluation}
+	\begin{table}[t!]
+	  \begin{center}
+	    \caption{Results from white box evaluation}
+	    \label{tab:table2}
+	    \scalebox{0.65}{\begin{tabular}{c|c|c|c|c|c} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+	      & \textbf{$\alpha$} & \textbf{Legitimate Acc.} & \textbf{Average Success Rate} & \textbf{Worst Success Rate} & \textbf{$L_2$ Distortion}\\
+	      \hline
+	      Baseline & 0 & 91\% & 49.18\% & 90\% & 0.207\\
+	      3x3 conv & $10^{-5}$ & 86.3\% & 30\% & 55\% & 0.201\\
+	      5x5 conv & 0.1 & 86.3\% & 24.11\% & 47.5\% & 0.189\\
+	      7x7 conv & 0.1 & 87\% & 11.61\% & 30\% & 0.203\\
+	      TV & $10^{-4}$ & 85.6\% & 7.92\% & 17.5\% & 0.224\\
+	      TV & $10^{-5}$ & 82.3\% & 8.47\% & 30\% & 0.199\\
+	    \end{tabular}}
+	  \end{center}
+	\end{table}
+\end{frame}
+
 
 \begin{frame}
 \frametitle{L2 vs Attack Plot}
