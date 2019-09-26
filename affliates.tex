@@ -1,6 +1,7 @@
 \documentclass{beamer}
 \usepackage{pharmpresentation}
-
+\usepackage{bbm}
+\usepackage{amsmath}
 \title{BlurNet: Defense by Filtering the Feature Maps}
 \subtitle{Ravi Raju}
 
@@ -25,26 +26,74 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{FFT Spectrum of channels}
+\frametitle{FFT Spectrum of Input Channels}
 \begin{center}
 	\includegraphics[scale=0.7]{regular_blur.png}
 \end{center}
-\pause
 \begin{itemize}
-	\item Log-shifted and normalized frequency spectrum of RGB channels of a natural and perturbed stop sign image 
+	\item Log-shifted and normalized frequency spectrum of RGB channels of a natural and perturbed stop sign image
+	\pause
 	\item Lower freqencies correspond to the center and higher ones to the edge.  
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{FFT of First Layer}
+\frametitle{FFT of First Layer Feature Maps}
 \begin{center}
 	\includegraphics[scale=0.7]{fft_filters.png}
 \end{center}
+\begin{itemize}
+	\item Each row corresponds to a unique feature map from L1 layer of network.
+	\pause
+	\item Difference image suggests that the perturbations induce high frequency components not found in natural stop signs
+\end{itemize}
 \end{frame}
 
-\begin{frame}
-\frametitle{Filtering input vs. Filtering Feature Maps}
+\section{Background}
+
+\begin{frame}{Terminology and Preliminaries: Adverserial Robustness}
+	Let $x$ be an image and a neural network, $F(x) = y$, such that $F: \mathbb{R}^{h*w*c}\rightarrow \mathbb{R}$ where $y$ is the correct label.
+	\begin{itemize}
+		\item Main goal of an attacker - generating an image, $x_{adv}$ such that $F(x_{adv}) \neq y$ by perturbing the input pixels.
+		\pause
+		\item Main goal of a defense algorithm - classify the perturbed image with the correct label
+		\pause
+		\item Threat Model - rules which dictate what kind of information an attacker
+		\begin{enumerate}
+			\item White-box attacks - attacker has access to the model, architecture gradients, etc. \pause
+			\item Black-box attacks (Transfer Attacks) - attacker has knowledge of model architecture but not parameters, etc.
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Metrics}
+	\begin{enumerate}
+		\item Attack Success Rate - number of predictions altered by an attack, $\frac{1}{N}\sum_{n=1}^{N} \mathbbm{1}[F(x_n) \neq F(x_{nadv})]$.
+		\pause
+		\item $L_2$ Disimilarity Distance - how different is the adverserial image from the original, $\frac{1}{N}\sum^{N}_{n=1} \frac{||x - x_{adv}||_{p}}{||x_{adv}||_{p}}.$
+		\pause
+		\item An attacker is considered strong if its attack success rate is high while having a low dissimilarity metric.
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Attacker: Robust Physical Perturbation ($RP_2$) Attack}
+	\centering
+	\includegraphics[scale=0.55]{RP2.png}
+	\pause
+	\begin{equation*}
+	\arg \min_\delta \quad \lambda\lVert M_x \cdot \delta \rVert_p + \mathbb{E}_{x_i \sim X^V} J(f_\theta(x_i + T_i(M_x \cdot \delta)), y^*)
+	\end{equation*}
+\end{frame}
+
+\section{Proposal}
+\begin{frame}{Low-pass filtering}
+	\centering
+	\includegraphics[scale=0.3]{depthwise_conv.png}
+	\begin{itemize}
+		\item Induce low-pass filtering with standard blur kernels by inserting a depthwise convolution after the first convolution layer.
+	\end{itemize}
+\end{frame}
+\begin{frame}{Filtering input vs. Filtering Feature Maps}
 \begin{table}[h!]
   \begin{center}
     \caption{Results from black box evaluation}
@@ -62,15 +111,24 @@
 \end{table}
 \end{frame}
 
-\begin{frame}
-\frametitle{Filtering in the higher layers}
-\begin{center}
+\begin{frame}{Filtering in the higher layers}
+	\centering
 	\includegraphics[scale=0.7]{higher_filters.png}
-\end{center}
+	\begin{enumerate}
+		\item The FFT Spectrum of a subsampling of feature maps from the second layer of the network.
+		\pause
+		\item High frequency information is relevant to maintain decent classification.
+	\end{enumerate}
 \end{frame}
 
-\begin{frame}
-\frametitle{Whitebox Evaluation}
+\section{Learning the Filter Parameters}
+\begin{frame}{Minimizing accuracy loss}
+	\centering
+	\begin{itemize}
+		\item Can we 
+	\end{itemize}
+\end{frame}
+\begin{frame}{Whitebox Evaluation}
 	\begin{table}[t!]
 	  \begin{center}
 	    \caption{Results from white box evaluation}
@@ -90,8 +148,7 @@
 \end{frame}
 
 
-\begin{frame}
-\frametitle{L2 vs Attack Plot}
+\begin{frame}{Whitebox Evaluation}
 \begin{center}
 	\includegraphics[scale=0.6]{L2vsAttkplot.eps}
 \end{center}
