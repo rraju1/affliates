@@ -85,6 +85,14 @@
 	\end{equation*}
 \end{frame}
 
+\begin{frame}{Dataset and Model}
+\begin{itemize}
+	\item Victim model 4-layer CNN
+	\item LISA traffic sign dataset - consider the top 18 classes only
+	\item Attacks focused on victim set of 40 stop signs
+\end{itemize}
+\end{frame}
+
 \section{Proposal}
 \begin{frame}{Low-pass filtering}
 	\centering
@@ -184,6 +192,16 @@ TV encourages the neighboring values in the feature maps to be similar so the hi
 	    \end{tabular}}
 	  \end{center}
 	\end{table}
+\end{frame}
+\section{Concluding Remarks}
+\begin{frame}{Conclusion}
+\begin{itemize}
+	\item Performed spectral analysis of the feature maps and saw that attacks introduce high-frequency components, which are amenable to low-pass filtering.
+	\pause
+	\item Adding low-pass filters after the first layers confers some robustness benefits
+	\pause
+	\item Introduced two loss penalties to induce low pass filtering in the network.
+\end{itemize}
 \end{frame}
 
 \end{document}
