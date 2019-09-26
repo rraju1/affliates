@@ -125,9 +125,48 @@
 \begin{frame}{Minimizing accuracy loss}
 	\centering
 	\begin{itemize}
-		\item Can we 
+		\item Can we learn the filter parameters so that we gain low-pass filtering without a significant degradation in accuracy? \pause
+		\item Regularization
+			\begin{enumerate}
+				\item $L_{\infty}$ regularization of the depthwise convolution layer
+				\pause
+				\item Total Variation (TV) regularization of the Layer 1 convolution weights
+			\end{enumerate}
 	\end{itemize}
 \end{frame}
+
+
+\begin{frame}{$\L_{\infty}$Regularization}
+\begin{equation*}
+\centering
+	\min \quad \frac{\alpha}{K}\sum_{j = 1}^{K}\lVert W_{depthwise}[:,:,j] \rVert_{\infty} + J(f_\theta(x, y))
+\end{equation*}
+\pause
+$L_{\infty}$ norm is an ideal choice for the depthwise weights. This will ensure that the weights in the kernel take similar values to each much like a low pass filter.
+\end{frame}
+
+\begin{frame}{Total Variation Regularization}
+\centering
+\begin{equation*}
+TV(x) = \sum_{i,j} |x_{i + 1, j} - x_{i,j}| + |x_{i, j + 1} - x_{i,j}|.
+\end{equation*}
+\pause
+\begin{equation*}
+\min \quad \alpha_{TV} \frac{1}{N \cdot K}\sum_{i = 1}^{N}\sum_{i = 1}^{K} TV(\mathcal{F}[i,:,:,k]) + J(f_\theta(x, y)),
+\end{equation*}
+\pause
+TV encourages the neighboring values in the feature maps to be similar so the high spike introduced by $RP_2$ would be diminished.
+\end{frame}
+
+
+
+\begin{frame}{Whitebox Evaluation}
+\begin{center}
+	\includegraphics[scale=0.6]{L2vsAttkplot.eps}
+\end{center}
+\end{frame}
+
+
 \begin{frame}{Whitebox Evaluation}
 	\begin{table}[t!]
 	  \begin{center}
@@ -145,13 +184,6 @@
 	    \end{tabular}}
 	  \end{center}
 	\end{table}
-\end{frame}
-
-
-\begin{frame}{Whitebox Evaluation}
-\begin{center}
-	\includegraphics[scale=0.6]{L2vsAttkplot.eps}
-\end{center}
 \end{frame}
 
 \end{document}
