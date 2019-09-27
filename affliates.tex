@@ -55,7 +55,7 @@
 \section{Background}
 
 \begin{frame}{Terminology and Preliminaries: Adverserial Robustness}
-	Let $x$ be an image and a neural network, $F(x) = y$, such that $F: \mathbb{R}^{h*w*c}\rightarrow \mathbb{R}$ where $y$ is the correct label.
+	Let $x$ be an image and a neural network, $F(x) = y$, such that $F: \mathbb{R}^{3}\rightarrow \mathbb{R}$ where $y$ is the correct label.
 	\begin{itemize}
 		\item Main goal of an attacker - generating an image, $x_{adv}$ such that $F(x_{adv}) \neq y$ by perturbing the input pixels.
 		\pause
