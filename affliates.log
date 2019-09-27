@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 SEP 2019 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 SEP 2019 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,20 +798,20 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (./affliates.aux)
 \openout1 = `affliates.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -879,7 +879,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring OFF on input line 8.
+Package hyperref Info: Link coloring OFF on input line 11.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -889,66 +889,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
 
 (./affliates.out) (./affliates.out)
 \@outlinefile=\write5
 \openout5 = `affliates.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 11.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 8.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 8.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 8.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 8.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 8.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 11.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 8.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 8.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 8.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 8.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 8.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 8.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 11.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 8
-.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 1
+1.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-8.
+11.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 8.
+ut line 11.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -974,13 +974,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 8.
+LaTeX Info: Redefining \includegraphics on input line 11.
 
 (./affliates.nav) <red-flush-UWlogo.pdf, id=33, 433.62pt x 180.675pt>
 File: red-flush-UWlogo.pdf Graphic file (type pdf)
 
 <use red-flush-UWlogo.pdf>
-Package pdftex.def Info: red-flush-UWlogo.pdf used on input line 11.
+Package pdftex.def Info: red-flush-UWlogo.pdf used on input line 14.
 (pdftex.def)             Requested size: 99.7305pt x 41.55437pt.
 
 
@@ -990,19 +990,19 @@ ersion <1.7>, but at most version <1.5> allowed
 <pharm_homepage.pdf, id=34, 668.73839pt x 150.8034pt>
 File: pharm_homepage.pdf Graphic file (type pdf)
  <use pharm_homepage.pdf>
-Package pdftex.def Info: pharm_homepage.pdf used on input line 11.
+Package pdftex.def Info: pharm_homepage.pdf used on input line 14.
 (pdftex.def)             Requested size: 133.7453pt x 30.16014pt.
 
-Overfull \vbox (248.39732pt too high) detected at line 11
+Overfull \vbox (248.39732pt too high) detected at line 14
  []
 
 
-Overfull \vbox (47.30656pt too high) detected at line 11
+Overfull \vbox (47.30656pt too high) detected at line 14
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 11.
+(Font)              size <5> substituted on input line 14.
 
 [1
 
@@ -1012,18 +1012,18 @@ ush-UWlogo.pdf> </Users/raviraju/Library/texmf/tex/latex/pharm-latex-templates/
 pharmpresentation/pharm_homepage.pdf>] (./affliates.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 18.
+line 21.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1033,7 +1033,7 @@ thkerncmss.
 ] <clean_class1.png, id=108, 385.44pt x 142.131pt>
 File: clean_class1.png Graphic file (type png)
  <use clean_class1.png>
-Package pdftex.def Info: clean_class1.png used on input line 26.
+Package pdftex.def Info: clean_class1.png used on input line 29.
 (pdftex.def)             Requested size: 154.17326pt x 56.85138pt.
 
 [4
@@ -1043,7 +1043,7 @@ Package pdftex.def Info: clean_class1.png used on input line 26.
 File: cleanclassification2.png Graphic file (type png)
 
 <use cleanclassification2.png>
-Package pdftex.def Info: cleanclassification2.png used on input line 26.
+Package pdftex.def Info: cleanclassification2.png used on input line 29.
 (pdftex.def)             Requested size: 223.55124pt x 56.85138pt.
  [5
 
@@ -1052,7 +1052,7 @@ Package pdftex.def Info: cleanclassification2.png used on input line 26.
 File: advclassification1.png Graphic file (type png)
 
 <use advclassification1.png>
-Package pdftex.def Info: advclassification1.png used on input line 26.
+Package pdftex.def Info: advclassification1.png used on input line 29.
 (pdftex.def)             Requested size: 160.91833pt x 57.23682pt.
  [6
 
@@ -1061,7 +1061,7 @@ Package pdftex.def Info: advclassification1.png used on input line 26.
 File: advclassification2.png Graphic file (type png)
 
 <use advclassification2.png>
-Package pdftex.def Info: advclassification2.png used on input line 26.
+Package pdftex.def Info: advclassification2.png used on input line 29.
 (pdftex.def)             Requested size: 233.95793pt x 57.23682pt.
  [7
 
@@ -1069,19 +1069,19 @@ Package pdftex.def Info: advclassification2.png used on input line 26.
 <regular_blur.png, id=138, 368.37625pt x 192.72pt>
 File: regular_blur.png Graphic file (type png)
  <use regular_blur.png>
-Package pdftex.def Info: regular_blur.png used on input line 38.
+Package pdftex.def Info: regular_blur.png used on input line 41.
 (pdftex.def)             Requested size: 257.8616pt x 134.90306pt.
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 38.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 41.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 38.
+LaTeX Font Info:    No file OMScmss.fd. on input line 41.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 38.
+(Font)              for symbol `textbullet' on input line 41.
 
 
-Overfull \vbox (13.07101pt too high) detected at line 38
+Overfull \vbox (13.07101pt too high) detected at line 41
  []
 
 [8
@@ -1089,10 +1089,10 @@ Overfull \vbox (13.07101pt too high) detected at line 38
  <./regular_blur.png>]
 File: regular_blur.png Graphic file (type png)
  <use regular_blur.png>
-Package pdftex.def Info: regular_blur.png used on input line 38.
+Package pdftex.def Info: regular_blur.png used on input line 41.
 (pdftex.def)             Requested size: 257.8616pt x 134.90306pt.
 
-Overfull \vbox (13.07101pt too high) detected at line 38
+Overfull \vbox (13.07101pt too high) detected at line 41
  []
 
 [9
@@ -1100,10 +1100,10 @@ Overfull \vbox (13.07101pt too high) detected at line 38
 ] <fft_filters.png, id=151, 387.4475pt x 178.6675pt>
 File: fft_filters.png Graphic file (type png)
  <use fft_filters.png>
-Package pdftex.def Info: fft_filters.png used on input line 50.
+Package pdftex.def Info: fft_filters.png used on input line 53.
 (pdftex.def)             Requested size: 271.2114pt x 125.06639pt.
 
-Overfull \vbox (3.23434pt too high) detected at line 50
+Overfull \vbox (3.23434pt too high) detected at line 53
  []
 
 [10
@@ -1111,10 +1111,10 @@ Overfull \vbox (3.23434pt too high) detected at line 50
  <./fft_filters.png>]
 File: fft_filters.png Graphic file (type png)
  <use fft_filters.png>
-Package pdftex.def Info: fft_filters.png used on input line 50.
+Package pdftex.def Info: fft_filters.png used on input line 53.
 (pdftex.def)             Requested size: 271.2114pt x 125.06639pt.
 
-Overfull \vbox (3.23434pt too high) detected at line 50
+Overfull \vbox (3.23434pt too high) detected at line 53
  []
 
 [11
@@ -1130,7 +1130,7 @@ Overfull \vbox (3.23434pt too high) detected at line 50
 ] [16
 
 ]
-LaTeX Font Info:    Try loading font information for U+bbm on input line 77.
+LaTeX Font Info:    Try loading font information for U+bbm on input line 80.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
@@ -1144,10 +1144,10 @@ File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 ] <RP2.png, id=213, 579.16376pt x 280.04625pt>
 File: RP2.png Graphic file (type png)
  <use RP2.png>
-Package pdftex.def Info: RP2.png used on input line 86.
+Package pdftex.def Info: RP2.png used on input line 89.
 (pdftex.def)             Requested size: 318.54105pt x 154.0259pt.
 
-Overfull \hbox (11.25117pt too wide) in paragraph at lines 86--86
+Overfull \hbox (11.25117pt too wide) in paragraph at lines 89--89
  [][][] 
  []
 
@@ -1156,10 +1156,10 @@ Overfull \hbox (11.25117pt too wide) in paragraph at lines 86--86
  <./RP2.png>]
 File: RP2.png Graphic file (type png)
  <use RP2.png>
-Package pdftex.def Info: RP2.png used on input line 86.
+Package pdftex.def Info: RP2.png used on input line 89.
 (pdftex.def)             Requested size: 318.54105pt x 154.0259pt.
 
-Overfull \hbox (11.25117pt too wide) in paragraph at lines 86--86
+Overfull \hbox (11.25117pt too wide) in paragraph at lines 89--89
  [][][][] 
  []
 
@@ -1173,12 +1173,12 @@ Overfull \hbox (11.25117pt too wide) in paragraph at lines 86--86
 File: depthwise_conv.png Graphic file (type png)
 
 <use depthwise_conv.png>
-Package pdftex.def Info: depthwise_conv.png used on input line 103.
+Package pdftex.def Info: depthwise_conv.png used on input line 106.
 (pdftex.def)             Requested size: 156.28508pt x 152.37042pt.
  [24
 
  <./depthwise_conv.png (PNG copy)>]
-Overfull \hbox (11.08704pt too wide) in paragraph at lines 120--120
+Overfull \hbox (11.08704pt too wide) in paragraph at lines 123--123
  [] 
  []
 
@@ -1188,14 +1188,14 @@ Overfull \hbox (11.08704pt too wide) in paragraph at lines 120--120
 File: higher_filters.png Graphic file (type png)
 
 <use higher_filters.png>
-Package pdftex.def Info: higher_filters.png used on input line 130.
+Package pdftex.def Info: higher_filters.png used on input line 133.
 (pdftex.def)             Requested size: 255.75375pt x 69.55939pt.
  [26
 
  <./higher_filters.png>]
 File: higher_filters.png Graphic file (type png)
  <use higher_filters.png>
-Package pdftex.def Info: higher_filters.png used on input line 130.
+Package pdftex.def Info: higher_filters.png used on input line 133.
 (pdftex.def)             Requested size: 255.75375pt x 69.55939pt.
 
 [27
@@ -1210,13 +1210,13 @@ Package pdftex.def Info: higher_filters.png used on input line 130.
 
 ]
 
-LaTeX Warning: Command \L invalid in math mode on input line 154.
+LaTeX Warning: Command \L invalid in math mode on input line 157.
 
 [32
 
 ]
 
-LaTeX Warning: Command \L invalid in math mode on input line 154.
+LaTeX Warning: Command \L invalid in math mode on input line 157.
 
 [33
 
@@ -1235,7 +1235,7 @@ Package epstopdf Info: Source file: <L2vsAttkplot.eps>
 (epstopdf)                    size: 18295 bytes
 (epstopdf)             Command: <repstopdf --outfile=L2vsAttkplot-eps-converted
 -to.pdf L2vsAttkplot.eps>
-(epstopdf)             \includegraphics on input line 175.
+(epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
 <L2vsAttkplot-eps-converted-to.pdf, id=309, 433.62pt x 289.08pt>
@@ -1243,12 +1243,12 @@ File: L2vsAttkplot-eps-converted-to.pdf Graphic file (type pdf)
 
 <use L2vsAttkplot-eps-converted-to.pdf>
 Package pdftex.def Info: L2vsAttkplot-eps-converted-to.pdf used on input line 1
-75.
+78.
 (pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
  [37
 
  <./L2vsAttkplot-eps-converted-to.pdf>]
-Overfull \hbox (10.48686pt too wide) in paragraph at lines 195--195
+Overfull \hbox (10.48686pt too wide) in paragraph at lines 198--198
  [] 
  []
 
@@ -1262,6 +1262,8 @@ Overfull \hbox (10.48686pt too wide) in paragraph at lines 195--195
 
 ] [42
 
+] [43
+
 ]
 \tf@nav=\write6
 \openout6 = `affliates.nav'.
@@ -1272,11 +1274,11 @@ Overfull \hbox (10.48686pt too wide) in paragraph at lines 195--195
 \tf@snm=\write8
 \openout8 = `affliates.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
  (./affliates.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 Package rerunfilecheck Info: File `affliates.out' has not changed.
 (rerunfilecheck)             Checksum: DF200AEB37A16047921B7988D4732221;253.
 
@@ -1289,10 +1291,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20623 strings out of 492995
- 414033 string characters out of 6132704
- 472595 words of memory out of 5000000
- 23586 multiletter control sequences out of 15000+600000
+ 20643 strings out of 492995
+ 414443 string characters out of 6132704
+ 472868 words of memory out of 5000000
+ 23604 multiletter control sequences out of 15000+600000
  17939 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,13n,89p,1926b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1312,10 +1314,10 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on affliates.pdf (42 pages, 1780075 bytes).
+Output written on affliates.pdf (43 pages, 1784234 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 302 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
