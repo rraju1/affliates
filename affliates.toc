@@ -1,5 +1,5 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Background}{12}{0}{2}
-\beamer@sectionintoc {3}{Proposal}{23}{0}{3}
+\beamer@sectionintoc {3}{Low-pass filtering the feature maps}{23}{0}{3}
 \beamer@sectionintoc {4}{Learning the Filter Parameters}{28}{0}{4}
 \beamer@sectionintoc {5}{Concluding Remarks}{39}{0}{5}

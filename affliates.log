@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 SEP 2019 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 SEP 2019 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,27 +1097,21 @@ Overfull \vbox (13.07101pt too high) detected at line 41
 
 [9
 
-] <fft_filters.png, id=151, 387.4475pt x 178.6675pt>
-File: fft_filters.png Graphic file (type png)
- <use fft_filters.png>
-Package pdftex.def Info: fft_filters.png used on input line 53.
-(pdftex.def)             Requested size: 271.2114pt x 125.06639pt.
+] <fft_feat_maps_labeled.png, id=151, 566.115pt x 216.3282pt>
+File: fft_feat_maps_labeled.png Graphic file (type png)
 
-Overfull \vbox (3.23434pt too high) detected at line 53
- []
+<use fft_feat_maps_labeled.png>
+Package pdftex.def Info: fft_feat_maps_labeled.png used on input line 53.
+(pdftex.def)             Requested size: 283.05681pt x 108.16383pt.
+ [10
 
-[10
+ <./fft_feat_maps_labeled.png>]
+File: fft_feat_maps_labeled.png Graphic file (type png)
 
- <./fft_filters.png>]
-File: fft_filters.png Graphic file (type png)
- <use fft_filters.png>
-Package pdftex.def Info: fft_filters.png used on input line 53.
-(pdftex.def)             Requested size: 271.2114pt x 125.06639pt.
-
-Overfull \vbox (3.23434pt too high) detected at line 53
- []
-
-[11
+<use fft_feat_maps_labeled.png>
+Package pdftex.def Info: fft_feat_maps_labeled.png used on input line 53.
+(pdftex.def)             Requested size: 283.05681pt x 108.16383pt.
+ [11
 
 ] [12
 
@@ -1280,7 +1274,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 Package rerunfilecheck Info: File `affliates.out' has not changed.
-(rerunfilecheck)             Checksum: DF200AEB37A16047921B7988D4732221;253.
+(rerunfilecheck)             Checksum: AD5AFD3E83B191562B096811FEB6F21A;280.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1292,8 +1286,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  20643 strings out of 492995
- 414443 string characters out of 6132704
- 472868 words of memory out of 5000000
+ 414493 string characters out of 6132704
+ 472895 words of memory out of 5000000
  23604 multiletter control sequences out of 15000+600000
  17939 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1314,7 +1308,7 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
 b>
-Output written on affliates.pdf (43 pages, 1784034 bytes).
+Output written on affliates.pdf (43 pages, 1885058 bytes).
 PDF statistics:
  460 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams

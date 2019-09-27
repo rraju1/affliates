@@ -368,11 +368,11 @@ INPUT ./regular_blur.png
 INPUT ./regular_blur.png
 INPUT regular_blur.png
 INPUT ./regular_blur.png
-INPUT fft_filters.png
-INPUT ./fft_filters.png
-INPUT ./fft_filters.png
-INPUT fft_filters.png
-INPUT ./fft_filters.png
+INPUT fft_feat_maps_labeled.png
+INPUT ./fft_feat_maps_labeled.png
+INPUT ./fft_feat_maps_labeled.png
+INPUT fft_feat_maps_labeled.png
+INPUT ./fft_feat_maps_labeled.png
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/bbm/bbm10.tfm

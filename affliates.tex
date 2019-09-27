@@ -43,7 +43,7 @@
 \begin{frame}
 \frametitle{FFT of First Layer Feature Maps}
 \begin{center}
-	\includegraphics[scale=0.7]{fft_filters.png}
+	\includegraphics[scale=0.5]{fft_feat_maps_labeled.png}
 \end{center}
 \begin{itemize}
 	\item Each row corresponds to a unique feature map from L1 layer of network.
@@ -55,7 +55,7 @@
 \section{Background}
 
 \begin{frame}{Terminology and Preliminaries: Adverserial Robustness}
-	Let $x$ be an image and a neural network, $F(x) = y$, such that $F: \mathbb{R}^{3}\rightarrow \mathbb{R}$ where $y$ is the correct label.
+	Let $x$ be an image and a neural network, $F(x) = y$, such that $F: \mathbb{R}^{w \times h\times c}\rightarrow \mathbb{R}^{n}$ where $y$ is the correct label.
 	\begin{itemize}
 		\item Main goal of an attacker - generating an image, $x_{adv}$ such that $F(x_{adv}) \neq y$ by perturbing the input pixels.
 		\pause
@@ -83,6 +83,7 @@
 	\centering
 	\includegraphics[scale=0.55]{RP2.png}
 	\pause
+	% Take this one out and emphasize y* and \lambda
 	\begin{equation*}
 	\arg \min_\delta \quad \lambda\lVert M_x \cdot \delta \rVert_p + \mathbb{E}_{x_i \sim X^V} J(f_\theta(x_i + T_i(M_x \cdot \delta)), y^*)
 	\end{equation*}
@@ -96,7 +97,7 @@
 \end{itemize}
 \end{frame}
 
-\section{Proposal}
+\section{Low-pass filtering the feature maps}
 \begin{frame}{Low-pass filtering}
 	\centering
 	\includegraphics[scale=0.3]{depthwise_conv.png}
@@ -158,6 +159,7 @@ $L_{\infty}$ norm is an ideal choice for the depthwise weights. This will ensure
 
 \begin{frame}{Total Variation Regularization}
 \centering
+% Color code the presentation of the equation
 \begin{equation*}
 TV(x) = \sum_{i,j} |x_{i + 1, j} - x_{i,j}| + |x_{i, j + 1} - x_{i,j}|.
 \end{equation*}
